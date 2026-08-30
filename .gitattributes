@@ -1,0 +1,35 @@
+# Auto detect text files and normalize line endings to LF
+* text=auto
+
+# C# source files
+*.cs text eol=lf
+*.csproj text eol=lf
+*.sln text eol=lf
+
+# Configuration files
+*.config text eol=lf
+*.json text eol=lf
+*.xml text eol=lf
+*.yaml text eol=lf
+*.yml text eol=lf
+
+# Documentation
+*.md text eol=lf
+
+# Binary files
+*.dll binary
+*.exe binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+
+# NuGet
+packages.config text eol=lf
+*.nupkg binary
+
+# Preserve exact line endings in certain files
+.editorconfig text eol=lf
+.gitignore text eol=lf
+.gitattributes text eol=lf
