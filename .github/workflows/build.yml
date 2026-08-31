@@ -8,7 +8,7 @@ on:
   workflow_dispatch:
 
 env:
-  SOLUTION_FILE_PATH: GmailCreator.sln
+  SOLUTION_FILE_PATH: GmailCreator.csproj
   BUILD_CONFIGURATION: Release
   BUILD_PLATFORM: AnyCPU
 
